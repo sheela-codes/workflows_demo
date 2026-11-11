@@ -7,8 +7,8 @@ jobs:
   hello-test-python-versions:
     strategy:
       matrix:
-        python-version: ['3.7', '3.8']
-    runs-on: ubuntu-latest
+        python-version: ['3.12', '3.13']
+    runs-on: ubuntu-22.04
     steps:
     
       # Runs a single command using the runners shell, using run:
